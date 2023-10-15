@@ -14,20 +14,22 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background: url('../images/backgrounddemo.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
     /* Generic project styles */
-    color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
+    color: white;
+    font-family: 'Onest', sans-serif;
 }
 
 /* Header */
 header {
 
-    background-color: #ffffff;
+    background-color: transparent;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -40,11 +42,12 @@ header a {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
 }
+
 
 #menu {
     size: 110%;
@@ -57,17 +60,17 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a
+    border-bottom: 1px solid white;
 }
 
 /*Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: transparent;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px white;
     display: none;
     top: 100%
 }
@@ -89,7 +92,7 @@ nav {
 /* Main content */
 main {
 
-    background-color: lightblue;
+    background-color: transparent;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -108,7 +111,7 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a
+    color: white;
 }
 
 /* Media query: tablets and larger, (768px and up) */
@@ -151,8 +154,10 @@ main {
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
         #menu a:hover {
-            border-bottom: 1px solid #3a3a3a
+            border-bottom: 1px solid white;
+            transition: 3s;
         }
+
     }
 
 }
