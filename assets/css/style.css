@@ -168,6 +168,7 @@ footer {}
     .first-para-index {
         text-align: left;
         max-width: 350px;
+        padding-bottom: 20px
     }
 
     /* This will target the second paragraph on the index page */
@@ -175,18 +176,20 @@ footer {}
         text-align: right;
         max-width: 350px;
         float: right;
-
+        padding-top: 20px
     }
 
     /*Below is trying to get the video for index.html page to be centered and fit the screen on tablets*/
     .video-one {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: baseline;
         width: 100%;
         padding: 0;
-
+        height: 300px
     }
+
+
 
     .video-one iframe {
         width: 50%;
@@ -208,7 +211,7 @@ footer {}
     .video-one {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: baseline;
         width: 100%;
         padding-top: 90px;
 
@@ -225,6 +228,14 @@ footer {}
     .first-para-index {
         text-align: left;
         max-width: 700px;
+    }
+
+    /* This will target the second paragraph on the index page for larger screens */
+    .second-para-index {
+        text-align: right;
+        max-width: 700px;
+        float: right;
+        padding-top: 350px
     }
 
 }
