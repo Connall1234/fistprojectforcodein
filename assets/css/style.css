@@ -109,6 +109,29 @@ main {
     padding: 52px;
 }
 
+/* The below is to add some padding for the index paragraphs on mobile */
+.first-para-index {
+    padding-bottom: 20px;
+}
+
+.second-para-index {
+    padding-top: 20px
+}
+
+/* The above is to add some padding for the index paragraphs on mobile */
+
+/*The below is the image we're going to use for the index page*/
+#image-index {
+    height: 600px;
+    width: 100%;
+    background: url("/assets/images/backgrounddemo.jpg") no-repeat center center/cover;
+    position: relative;
+    overflow: visible
+}
+
+
+
+
 /* Footer */
 
 footer {}
@@ -176,7 +199,7 @@ footer {}
         text-align: right;
         max-width: 350px;
         float: right;
-        padding-top: 20px
+        padding-top: 10px
     }
 
     /*Below is trying to get the video for index.html page to be centered and fit the screen on tablets*/
@@ -186,7 +209,8 @@ footer {}
         align-items: baseline;
         width: 100%;
         padding: 0;
-        height: 300px
+        height: 300px;
+
     }
 
 
@@ -235,7 +259,7 @@ footer {}
         text-align: right;
         max-width: 700px;
         float: right;
-        padding-top: 350px
+        padding-top: 320px
     }
 
 }
