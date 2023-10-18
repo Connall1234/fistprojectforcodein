@@ -164,6 +164,20 @@ footer {}
         margin-top: 113px;
     }
 
+    /* This will target the first paragraph on the index page */
+    .first-para-index {
+        text-align: left;
+        max-width: 350px;
+    }
+
+    /* This will target the second paragraph on the index page */
+    .second-para-index {
+        text-align: right;
+        max-width: 350px;
+        float: right;
+
+    }
+
     /*Below is trying to get the video for index.html page to be centered and fit the screen on tablets*/
     .video-one {
         display: flex;
@@ -196,7 +210,7 @@ footer {}
         justify-content: center;
         align-items: center;
         width: 100%;
-        padding: 0;
+        padding-top: 90px;
 
     }
 
@@ -205,6 +219,12 @@ footer {}
         height: 700%;
         padding-top: 40px;
         padding-bottom: 56.25%;
+    }
+
+    /* This will target the first paragraph on the index page */
+    .first-para-index {
+        text-align: left;
+        max-width: 700px;
     }
 
 }
