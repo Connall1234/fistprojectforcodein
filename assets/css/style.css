@@ -126,8 +126,7 @@ main {
     max-width: none;
     background: url("/assets/images/backgrounddemo.jpg") no-repeat center center/cover;
     position: relative;
-    margin-top: 20px;
-
+    margin-top: 30px;
     margin-left: -52px;
     margin-right: -52px;
 }
@@ -224,6 +223,21 @@ footer {}
         padding-top: 40px;
         padding-bottom: 56.25%;
     }
+
+    /* The below is for the image on the index page to fit on tablets */
+
+    #image-index {
+        height: 150px;
+        max-width: none;
+        background: url("/assets/images/backgrounddemo.jpg") no-repeat center center/cover;
+        position: relative;
+        margin-top: 360px;
+        margin-left: -52px;
+        margin-right: -52px;
+        border: solid red 2px
+    }
+
+    /* The above is for the image on the index page to fit on tablets */
 
 }
 
