@@ -193,7 +193,7 @@ footer {}
     .first-para-index {
         text-align: left;
         max-width: 350px;
-        padding-bottom: 20px
+        padding-bottom: 30px
     }
 
     /* This will target the second paragraph on the index page */
@@ -201,7 +201,7 @@ footer {}
         text-align: right;
         max-width: 350px;
         float: right;
-        padding-top: 10px
+        padding-top: 20px
     }
 
     /*Below is trying to get the video for index.html page to be centered and fit the screen on tablets*/
@@ -212,6 +212,7 @@ footer {}
         width: 100%;
         padding: 0;
         height: 300px;
+        border: solid red 2px;
 
     }
 
@@ -227,14 +228,16 @@ footer {}
     /* The below is for the image on the index page to fit on tablets */
 
     #image-index {
-        height: 150px;
-        max-width: none;
+        height: 280px;
+        width: 100%;
         background: url("/assets/images/backgrounddemo.jpg") no-repeat center center/cover;
         position: relative;
+        background-size: 100% 100%;
         margin-top: 360px;
         margin-left: -52px;
         margin-right: -52px;
-        border: solid red 2px
+        border: solid red 2px;
+        object-fit: cover;
     }
 
     /* The above is for the image on the index page to fit on tablets */
