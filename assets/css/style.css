@@ -201,7 +201,8 @@ footer {}
         text-align: right;
         max-width: 350px;
         float: right;
-        padding-top: 20px
+        padding-top: 20px;
+        padding-bottom: 30px
     }
 
     /*Below is trying to get the video for index.html page to be centered and fit the screen on tablets*/
@@ -212,7 +213,7 @@ footer {}
         width: 100%;
         padding: 0;
         height: 300px;
-        border: solid red 2px;
+
 
     }
 
@@ -233,11 +234,14 @@ footer {}
         background: url("/assets/images/backgrounddemo.jpg") no-repeat center center/cover;
         position: relative;
         background-size: 100% 100%;
-        margin-top: 360px;
-        margin-left: -52px;
-        margin-right: -52px;
-        border: solid red 2px;
-        object-fit: cover;
+
+        object-fit: contain;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+
     }
 
     /* The above is for the image on the index page to fit on tablets */
@@ -246,42 +250,56 @@ footer {}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid white;
-        transition: 3s;
-    }
-
-    /*Below is trying to get the video for index.html page to be centered and fit the screen on larger screens*/
-    .video-one {
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
-        width: 100%;
-        padding-top: 90px;
-
-    }
-
-    .video-one iframe {
-        width: 30%;
-        height: 700%;
-        padding-top: 40px;
-        padding-bottom: 56.25%;
-    }
 
     /* This will target the first paragraph on the index page */
     .first-para-index {
         text-align: left;
-        max-width: 700px;
+        max-width: 350px;
+        padding-bottom: 30px
     }
 
-    /* This will target the second paragraph on the index page for larger screens */
+    /* This will target the second paragraph on the index page */
     .second-para-index {
         text-align: right;
-        max-width: 700px;
+        max-width: 350px;
         float: right;
-        padding-top: 320px
+        padding-top: 20px;
+        padding-bottom: 30px
     }
 
-}
+    /*Below is trying to get the video for index.html page to be centered and fit the screen on tablets*/
+    .video-one {
+
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 0;
+        height: 300px;
+
+    }
+
+
+
+    .video-one iframe {
+        width: 50%;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 56.25%;
+    }
+
+    /*The below is fixing the height of the video only*/
+    .video-one .video-one-element {
+        height: 900px;
+        /*The above is fixing the height of the video only*/
+    }
+
+    /* The below is for the image on the index page to fit on tablets */
+
+    #image-index {
+        width: 50%;
+    
+    }
+
+
 
 }
