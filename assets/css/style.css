@@ -152,6 +152,31 @@ footer {}
     color: white;
 }
 
+/* Below is for the our quotes page */
+
+/* This will be for the quote cards */
+
+.container-our-quotes {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+
+}
+
+.card-image {
+    background-color: yellow;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+
+
 /* Media query: tablets and larger, (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -297,7 +322,7 @@ footer {}
 
     #image-index {
         width: 50%;
-    
+
     }
 
 
