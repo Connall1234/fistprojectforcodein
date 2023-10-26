@@ -207,8 +207,8 @@ footer {}
 /* Below is for the text on the cards to stand out */
 .card h2,
 .card p {
-    color: white;
-    padding: 10px
+    color: black;
+    padding: 10px;
 }
 
 /* Above is for the text on the cards to stand out */
@@ -231,11 +231,17 @@ footer {}
 
 .card:hover {
     background-color: grey;
+    color: red;
     cursor: pointer;
     transform: scale(1.03);
     transition: all 1s ease;
 
 
+}
+
+.card:hover h2,
+.card:hover p {
+    color: white;
 }
 
 /*Above is for the cards to have a hover affect */
