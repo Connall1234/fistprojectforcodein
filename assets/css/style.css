@@ -159,24 +159,28 @@ footer {}
 .container-our-quotes {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card {
 
-    background: white;
+    background: transparent;
     width: 270px;
-    height: 400px;
+
     margin: 10px;
+    border-radius: 15px;
+
 
 
 }
 
 .card-image {
 
-    height: 300px;
+    height: 310px;
     margin-bottom: 15px;
     background-size: cover;
     padding-right: 60px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 /*Below is for the card images */
@@ -203,8 +207,38 @@ footer {}
 /* Below is for the text on the cards to stand out */
 .card h2,
 .card p {
-    color: red;
+    color: white;
+    padding: 10px
 }
+
+/* Above is for the text on the cards to stand out */
+
+
+/* Below is for the more quotes button */
+.card a {
+    background-color: grey;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+/* Above is for the more quotes button */
+/*Below is for the cards to have a hover affect */
+
+.card:hover {
+    background-color: grey;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+
+
+}
+
+/*Above is for the cards to have a hover affect */
 
 /* Media query: tablets and larger, (768px and up) */
 @media screen and (min-width: 768px) {
