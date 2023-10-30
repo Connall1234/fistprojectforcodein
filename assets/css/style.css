@@ -359,6 +359,14 @@ h6 {
     box-shadow: 1px 5px 7px 1px white;
 }
 
+.bottom {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-left: -10px
+
+}
+
 /*Above is for the general strucutre on this page */
 
 /* Media query: tablets and larger, (768px and up) */
