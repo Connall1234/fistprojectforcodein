@@ -227,6 +227,7 @@ footer {}
 }
 
 /* Above is for the more quotes button */
+
 /*Below is for the cards to have a hover affect */
 
 .card:hover {
@@ -272,7 +273,7 @@ footer {}
     }
 
     #logo {
-        font-size: 280%;
+        font-size: 180%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
@@ -307,11 +308,7 @@ footer {}
         width: 100%;
         padding: 0;
         height: 300px;
-
-
     }
-
-
 
     .video-one iframe {
         width: 50%;
@@ -327,11 +324,13 @@ footer {}
         width: 80%;
         background: url("/assets/images/backgrounddemo.jpg") no-repeat center center/cover;
         position: relative;
-        padding-top: 800px;
-        margin-left: 0px;
-        margin-right: 0px;
-
-        padding: 0px 0px 0px 0px
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     /* The above is for the image on the index page to fit on tablets */
@@ -354,7 +353,7 @@ footer {}
         max-width: 350px;
         float: right;
         padding-top: 20px;
-        margin-bottom: 890px
+        margin-bottom: 20px
     }
 
     /*Below is trying to get the video for index.html page to be centered and fit the screen on tablets*/
@@ -386,9 +385,20 @@ footer {}
     /* The below is for the image on the index page to fit on tablets */
 
     #image-index {
-        width: 50%;
-
+        height: 280px;
+        width: 80%;
+        background: url("/assets/images/backgrounddemo.jpg") no-repeat center center/cover;
+        position: relative;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+}
 
 
 
