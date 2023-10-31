@@ -42,23 +42,13 @@ header a {
 }
 
 /* Header end */
-
-/* Border and padding for the video on index.html */
-.video-one {
-    padding: 20px 10px;
-    border: 2px solid black;
-    border-radius: 20px;
-}
-
 /* styles for H1 */
-
 h1 {
     font-size: 32px;
     color: white;
     text-decoration: none;
     font-weight: 700;
 }
-
 
 /* Styles for our menu, 'active' is for the current page we're on in reference to the browser */
 #menu {
@@ -73,6 +63,8 @@ h1 {
 
 .active {
     border-bottom: 1px solid white;
+    font-weight: bold;
+    font-size: 20px
 }
 
 /*Navbar styles with dropdown toggle */
@@ -111,32 +103,6 @@ main {
     padding: 52px;
 }
 
-
-/* The below is to add some padding for the index paragraphs on mobile */
-.first-para-index {
-    padding-bottom: 20px;
-}
-
-.second-para-index {
-    padding-top: 20px
-}
-
-/* The above is to add some padding for the index paragraphs on mobile */
-
-/*The below is the image we're going to use for the index page*/
-#image-index {
-    height: 150px;
-    max-width: none;
-    background: url("/assets/images/backgrounddemo.jpg") no-repeat center center/cover;
-    position: relative;
-    margin-top: 30px;
-    margin-left: -52px;
-    margin-right: -52px;
-}
-
-
-
-
 /* Footer */
 
 footer {}
@@ -166,19 +132,13 @@ footer {}
 }
 
 .card {
-
     background: transparent;
     width: 270px;
-
     margin: 10px;
     border-radius: 15px;
-
-
-
 }
 
 .card-image {
-
     height: 310px;
     margin-bottom: 15px;
     background-size: cover;
@@ -189,39 +149,27 @@ footer {}
 /*Below is for the card images */
 .car-1 {
     background-image: url("/assets/images/eminem_img.webp");
-
-
-
 }
 
 .car-2 {
     background-image: url("/assets/images/jordan_img.jpg");
-
 }
 
 .car-3 {
     background-image: url("/assets/images/zach-img.jpg");
-
-
 }
 
 .car-4 {
     background-image: url("/assets/images/royce-img.jpg");
-
-
 }
 
 .car-5 {
     background-image: url("/assets/images/joebudden-img.webp");
-
-
 }
 
 
 .car-6 {
     background-image: url("/assets/images/erict-img.jpg");
-
-
 }
 
 /*Above is for the card images */
@@ -232,15 +180,12 @@ footer {}
 }
 
 /*Above is to fix the quote sizing on Royce card */
-
+/*Below is for the button on card quotes*/
 .button-container {
     display: flex;
     align-items: baseline;
     justify-content: space-around;
 }
-
-
-/*Above is for the card images */
 
 /* Below is for the text on the cards to stand out */
 .card h2,
@@ -250,7 +195,6 @@ footer {}
 }
 
 /* Above is for the text on the cards to stand out */
-
 
 /* Below is for the more quotes button */
 .card a {
@@ -267,15 +211,12 @@ footer {}
 /* Above is for the more quotes button */
 
 /*Below is for the cards to have a hover affect */
-
 .card:hover {
     background-color: grey;
     color: red;
     cursor: pointer;
     transform: scale(1.03);
     transition: all 1s ease;
-
-
 }
 
 .card:hover h2,
@@ -285,8 +226,6 @@ footer {}
 
 /*Above is for the cards to have a hover affect */
 
-
-
 /*Below is for the form page */
 .box {
     display: flex;
@@ -294,7 +233,6 @@ footer {}
     align-items: center;
     min-height: 90vh;
 }
-
 
 .container {
     width: 350px;
@@ -340,11 +278,9 @@ h6 {
 }
 
 .box i {
-
     height: 200%;
     width: 200%;
     padding: 10px;
-
 }
 
 .submit {
@@ -390,6 +326,7 @@ h6 {
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 10px 20px;
+    border: solid 2px red
 }
 
 .section-three {
@@ -397,23 +334,14 @@ h6 {
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 10px 20px;
+
 }
 
-.section-four {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 10px 20px;
-    text-align: center;
-}
 
 .section-four img {
     max-width: 100%;
     height: auto;
 }
-
-
-
-
 
 /* Media query: tablets and larger, (768px and up) */
 @media screen and (min-width: 768px) {
@@ -452,56 +380,6 @@ h6 {
         margin-top: 113px;
     }
 
-    /* This will target the first paragraph on the index page */
-    .first-para-index {
-        text-align: left;
-        max-width: 350px;
-        padding-bottom: 30px
-    }
-
-    /* This will target the second paragraph on the index page */
-    .second-para-index {
-        text-align: right;
-        max-width: 350px;
-        float: right;
-        padding-top: 20px;
-        padding-bottom: 30px
-    }
-
-    /*Below is trying to get the video for index.html page to be centered and fit the screen on tablets*/
-    .video-one {
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
-        width: 100%;
-        padding: 0;
-        height: 300px;
-    }
-
-    .video-one iframe {
-        width: 50%;
-        height: auto;
-        padding-top: 40px;
-        padding-bottom: 56.25%;
-    }
-
-    /* The below is for the image on the index page to fit on tablets */
-
-    #image-index {
-        height: 280px;
-        width: 80%;
-        background: url("/assets/images/backgrounddemo.jpg") no-repeat center center/cover;
-        position: relative;
-        margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /* The above is for the image on the index page to fit on tablets */
 
 
     /*The below is for the index text to appear different on tablets */
@@ -519,128 +397,9 @@ h6 {
 
 }
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-
-    /* This will target the first paragraph on the index page */
-    .first-para-index {
-        text-align: left;
-        max-width: 350px;
-        padding-bottom: 30px
-    }
-
-    /* This will target the second paragraph on the index page */
-    .second-para-index {
-        text-align: right;
-        max-width: 350px;
-        float: right;
-        padding-top: 20px;
-        margin-bottom: 20px
-    }
-
-    /*Below is trying to get the video for index.html page to be centered and fit the screen on tablets*/
-    .video-one {
-
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
-        padding: 0;
-        height: 250px;
-        padding-bottom: 450px
-    }
-
-
-
-    .video-one iframe {
-        width: 50%;
-        height: auto;
-        padding-top: 40px;
-        padding-bottom: 56.25%;
-    }
-
-    /*The below is fixing the height of the video only*/
-    .video-one .video-one-element {
-        height: 900px;
-        /*The above is fixing the height of the video only*/
-    }
-
-    /* The below is for the image on the index page to fit on tablets */
-
-    #image-index {
-        height: 280px;
-        width: 80%;
-        background: url("/assets/images/backgrounddemo.jpg") no-repeat center center/cover;
-        position: relative;
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-
-}
 
 /* Large devices (laptops and desktops, 992px and up) we are adding this to fix the video disappearing on 1200px and up screens */
-@media screen and (min-width: 1200px) {
-
-
-
-    /* This will target the first paragraph on the index page */
-    .first-para-index {
-        text-align: left;
-        max-width: 350px;
-        padding-bottom: 30px
-    }
-
-    /* This will target the second paragraph on the index page */
-    .second-para-index {
-        text-align: right;
-        max-width: 350px;
-        float: right;
-        padding-top: 20px;
-        margin-bottom: 20px
-    }
-
-    /*Below is trying to get the video for index.html page to be centered and fit the screen on tablets*/
-    .video-one {
-        padding: 0;
-        padding-bottom: 56.25%;
-        /* 16:9 aspect ratio */
-        position: relative;
-        border: solid yellow 2px
-    }
-
-    .video-one iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 0;
-        border: solid red 2px
-    }
-
-
-    /* The below is for the image on the index page to fit on tablets */
-
-    #image-index {
-        height: 280px;
-        width: 80%;
-        background: url("/assets/images/backgrounddemo.jpg") no-repeat center center/cover;
-        position: relative;
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-}
+@media screen and (min-width: 1200px) {}
 
 /* This is to make the quotes look centered on large screens */
 @media screen and (min-width: 1920px) {
