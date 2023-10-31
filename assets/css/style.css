@@ -111,6 +111,7 @@ main {
     padding: 52px;
 }
 
+
 /* The below is to add some padding for the index paragraphs on mobile */
 .first-para-index {
     padding-bottom: 20px;
@@ -284,9 +285,9 @@ footer {}
 
 /*Above is for the cards to have a hover affect */
 
-/* Send a quote page */
 
-/*Below is for the general strucutre on this page */
+
+/*Below is for the form page */
 .box {
     display: flex;
     justify-content: center;
@@ -338,8 +339,10 @@ h6 {
     background: white;
 }
 
-.box  i {
+.box i {
 
+    height: 200%;
+    width: 200%;
     padding: 10px;
 
 }
@@ -364,10 +367,56 @@ h6 {
     justify-content: center;
     padding-top: 20px;
     margin-left: -10px
-
 }
 
-/*Above is for the general strucutre on this page */
+/*Above is for the form page */
+
+/* Below is for the home page */
+
+.home-wrapper {
+    border: solid red 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-one {
+    border: solid blue 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 20px;
+}
+
+.section-two {
+    border: solid green 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 20px;
+}
+
+.section-three {
+    border: solid orange 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 20px;
+}
+
+.section-four {
+    border: solid purple 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.section-four img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
 
 /* Media query: tablets and larger, (768px and up) */
 @media screen and (min-width: 768px) {
@@ -526,6 +575,8 @@ h6 {
 
 /* Large devices (laptops and desktops, 992px and up) we are adding this to fix the video disappearing on 1200px and up screens */
 @media screen and (min-width: 1200px) {
+
+
 
     /* This will target the first paragraph on the index page */
     .first-para-index {
