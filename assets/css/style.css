@@ -374,35 +374,32 @@ h6 {
 /* Below is for the home page */
 
 .home-wrapper {
-    border: solid red 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .section-one {
-    border: solid blue 2px;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 10px 20px;
 }
 
 .section-two {
-    border: solid green 2px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 10px 20px;
 }
 
 .section-three {
-    border: solid orange 2px;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 10px 20px;
 }
 
 .section-four {
-    border: solid purple 2px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 10px 20px;
@@ -505,6 +502,20 @@ h6 {
     }
 
     /* The above is for the image on the index page to fit on tablets */
+
+
+    /*The below is for the index text to appear different on tablets */
+    .section-one {
+        max-width: 50%
+    }
+
+
+    .section-three {
+        margin-left: auto;
+        max-width: 50%
+    }
+
+    /*The above is for the index text to appear different on tablets */
 
 }
 
