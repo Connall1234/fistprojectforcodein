@@ -159,8 +159,9 @@ footer {}
     background-image: url("/assets/images/zach-img.jpg");
 }
 
+/*Trying to fix the issue for the images not showing here*/
 .car-4 {
-    background-image: url("/assets/images/royce-img.jpg");
+    background-image: url("assets/images/royce-img.jpg");
 }
 
 .car-5 {
@@ -226,12 +227,16 @@ footer {}
 
 /*Above is for the cards to have a hover affect */
 
-/*Below is for the form page */
+/*The below is for the form page */
 .box {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
+    min-height: 50vh;
+    border: solid 2px yellow;
+    width: 100%;
+    margin-top: -170px;
+    overflow-x: hidden;
 }
 
 .container {
@@ -239,6 +244,8 @@ footer {}
     display: flex;
     flex-direction: column;
     padding: 0 15px 0 15px;
+    border: solid 2px red;
+    margin-top: -200px
 }
 
 span {
@@ -343,6 +350,59 @@ h6 {
     height: auto;
 }
 
+
+/* Media query: phones and some talets, (767px and up)NEED TO FIX ALL */
+@media screen and (max-width: 767px) {
+
+
+
+    /* Main content */
+    main {
+        /* Push main content down to accomodate large header */
+        margin-top: 113px;
+        display: flex;
+        /*Had troible with form not centering so we added flex*/
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+
+
+    /*The below is for the index text to appear different on tablets */
+    .section-one {
+        max-width: 50%
+    }
+
+
+    .section-three {
+        margin-left: auto;
+        max-width: 50%
+    }
+
+    /*The above is for the index text to appear different on tablets */
+
+
+
+
+
+    h6 {
+
+        font-size: 18px
+    }
+
+    .input {
+        width: 100%
+    }
+
+    .submit {
+        width: 100%
+    }
+
+
+}
+
 /* Media query: tablets and larger, (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -378,6 +438,12 @@ h6 {
     main {
         /* Push main content down to accomodate large header */
         margin-top: 113px;
+        display: flex;
+        /*Had troible with form not centering so we added flex*/
+        justify-content: center;
+        align-items: center;
+
+
     }
 
 
@@ -394,6 +460,8 @@ h6 {
     }
 
     /*The above is for the index text to appear different on tablets */
+
+
 
 }
 
