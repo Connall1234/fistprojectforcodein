@@ -130,22 +130,7 @@ footer {}
     padding: 10px 10px 10px 10px;
 }
 
-/* The below is for the image on the section page */
-.section-four {
-    overflow-x: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-height: 800px;
-    max-width: 450px;
-    border: solid red 2px;
-    
 
-.index-img {
-
-    border: solid blue 2px;
-    min-width: 70%
-}
 
 /* Below is for the our quotes page */
 
@@ -174,11 +159,13 @@ footer {}
 
 /*Below is for the card images */
 .car-1 {
-    background-image: url("/assets/images/eminem_img.webp");
+    background-image: url("https://variety.com/wp-content/uploads/2018/08/eminem.jpg");
+    background-position: center center;
 }
 
 .car-2 {
-    background-image: url("/assets/images/jordan_img.jpg");
+    background-image: url("https://i.pinimg.com/originals/6b/ec/19/6bec1946367bc86406ca96658ced511b.jpg");
+    background-position: center center;
 }
 
 .car-3 {
@@ -347,7 +334,8 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 90%
+    width: 90%;
+    overflow-x: hidden;
 }
 
 .section-one {
@@ -394,113 +382,115 @@ h6 {
     }
 
 
-}
 
-
-/* Media query: phones and some talets, (767px and up)*/
-@media screen and (max-width: 767px) {
-
-
-
-    /* Main content */
-    main {
-        /* Push main content down to accomodate large header */
-        margin-top: 113px;
-        display: flex;
-        /*Had troible with form not centering so we added flex*/
-        justify-content: center;
-        align-items: center;
-
-
-    }
-
-
-    h6 {
-
-        font-size: 18px
-    }
-
-    .input {
-        width: 100%
-    }
-
-    .submit {
-        width: 100%
-    }
-
-
-}
-
-/* Media query: tablets and larger, (768px and up) */
-@media screen and (min-width: 768px) {
-
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #menu {
-        display: flex;
-
-    }
-
-    #menu>li {
-        padding: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 180%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
-    /* Main content */
-    main {
-        /* Push main content down to accomodate large header */
-        margin-top: 113px;
-        display: flex;
-        /*Had troible with form not centering so we added flex*/
-        justify-content: center;
-        align-items: center;
-
-
-    }
+    /* Media query: phones, only smaller screens to fix the text on index page (375px and up) */
+    @media screen and (min-width: 376px) {
 
 
 
-    /*The below is for the index text to appear different on tablets */
-    .section-one {
-        max-width: 50%
-    }
 
-
-    .section-three {
-        margin-left: auto;
-        max-width: 50%
-    }
-
-    /*The above is for the index text to appear different on tablets */
+        /* Media query: phones and some talets, (767px and up)*/
+        @media screen and (max-width: 767px) {
 
 
 
-}
+            /* Main content */
+            main {
+                /* Push main content down to accomodate large header */
+                margin-top: 113px;
+                display: flex;
+                /*Had troible with form not centering so we added flex*/
+                justify-content: center;
+                align-items: center;
+
+
+            }
+
+
+            h6 {
+
+                font-size: 18px
+            }
+
+            .input {
+                width: 100%
+            }
+
+            .submit {
+                width: 100%
+            }
+
+
+        }
+
+        /* Media query: tablets and larger, (768px and up) */
+        @media screen and (min-width: 768px) {
+
+            /* Header */
+            nav {
+                display: block;
+                position: relative;
+                box-shadow: none;
+                width: fit-content;
+                padding-right: 1rem;
+            }
+
+            #menu {
+                display: flex;
+
+            }
+
+            #menu>li {
+                padding: 1rem;
+            }
+
+            .nav-toggle-label {
+                display: none;
+            }
+
+            #logo {
+                font-size: 180%;
+                line-height: 75px;
+                margin: 0 0.5rem;
+            }
+
+            /* Main content */
+            main {
+                /* Push main content down to accomodate large header */
+                margin-top: 113px;
+                display: flex;
+                /*Had troible with form not centering so we added flex*/
+                justify-content: center;
+                align-items: center;
+
+
+            }
 
 
 
-/* Large devices (laptops and desktops, 992px and up) we are adding this to fix the video disappearing on 1200px and up screens */
-@media screen and (min-width: 1200px) {}
+            /*The below is for the index text to appear different on tablets */
+            .section-one {
+                max-width: 50%
+            }
 
-/* This is to make the quotes look centered on large screens */
-@media screen and (min-width: 1920px) {
-    .container-our-quotes {
-        margin-top: 140px
-    }
-}
+
+            .section-three {
+                margin-left: auto;
+                max-width: 50%
+            }
+
+            /*The above is for the index text to appear different on tablets */
+
+
+        }
+
+
+
+
+
+        /* This is to make the quotes look centered on large screens */
+        @media screen and (min-width: 1920px) {
+            .container-our-quotes {
+                margin-top: 140px
+            }
+        }
