@@ -128,6 +128,7 @@ footer {}
 
 .video-element {
     padding: 10px 10px 10px 10px;
+    border: solid 15px yellow;
 }
 
 
@@ -161,6 +162,7 @@ footer {}
 .car-1 {
     background-image: url("https://variety.com/wp-content/uploads/2018/08/eminem.jpg");
     background-position: center center;
+    border: solid 5px yellow
 }
 
 .car-2 {
