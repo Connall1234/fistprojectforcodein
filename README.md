@@ -6,9 +6,9 @@ Here's my website, Coders Quotes!
 
 This website is built with the purpose of showing which quotes I find the most interesting, from different figures throughout the world. The website is designed in a black & white manner to elicit simplicity and strightforwardness. 
 
-The website is easily designed with a simple layout, so anyone can access it easily. The website consists of a home/about page, a page dedicated to the quotes mentioned above, and lastly a form page where anyone can post and send their own favourite quotes in. 
+The website is easily designed with a simple layout, so anyone can access it easily. The website consists of a home/about page, a page dedicated to the quotes mentioned above, and lastly a form page where anyone can post and send their own favourite quotes in.
 
-![Coders Quotes](https://ibb.co/GR8QztB)
+[![Screenshot-2023-11-04-030743.png](https://i.postimg.cc/yYxQhhBh/Screenshot-2023-11-04-030743.png)](https://postimg.cc/mtxyBHPh)
 
 
 ## Features
