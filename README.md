@@ -2,7 +2,6 @@
 
 [View the live project here.](https://connall1234.github.io/fistprojectforcodein/)
 
-
 Here's my website, Coders Quotes! 
 
 This website is built with the purpose of showing which quotes I find the most interesting, from different figures throughout the world. The website is designed in a black & white manner to elicit simplicity and strightforwardness. 
@@ -11,13 +10,6 @@ The website is easily designed with a simple layout, so anyone can access it eas
 
 ![alt text](https://ibb.co/GR8QztB)
 
-- ### Wireframes
-
-  - Home Page Wireframe - [View](https://github.com/)
-
-  - Mobile Wireframe - [View](https://github.com/)
-
-  - Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
