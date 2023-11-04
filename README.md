@@ -20,7 +20,7 @@ The website is easily designed with a simple layout, so anyone can access it eas
 - We have a nav bar at the top, with three pieces of content, two paragraphs discussing what the page is about, and one piece of media to split them up
 - At the bottom we have our footer which provies all our links to social media 
 
-### Our quotes paee
+### Our quotes page
 
 [![Quotes page screenshot](https://i.postimg.cc/TYZ8H2R4/Screenshot-2023-11-04-103155.png)](https://postimg.cc/xcyFX2Nv)
 
@@ -35,22 +35,28 @@ The website is easily designed with a simple layout, so anyone can access it eas
 -The page has a working form submisison 
 -The intention was to make this page very straightforward and keep with the theme of the other pages
 
-- Responsive on all device sizes
+### Interactive elements
 
-- Interactive elements
-
+- The interactive elements of the page are shown above, with the cards/quotes users can see and the form page
 
 ### Languages Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+### [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-Below are all the screenshots for this testing part of the file
+[![CSS](https://i.postimg.cc/SN0RchBm/Screenshot-2023-11-04-104217.png)](https://postimg.cc/Yj3twJ2P)
+[![Index](https://i.postimg.cc/jj8Qj5kx/Screenshot-2023-11-04-104352.png)](https://postimg.cc/947q8WhK)
+[![Our quotes](https://i.postimg.cc/jj8Qj5kx/Screenshot-2023-11-04-104352.png)](https://postimg.cc/947q8WhK)
+[![Your quotes](https://i.postimg.cc/tJcMnkSg/Your-quotes-screenshot.png)](https://postimg.cc/wRhVSXdK)
+
+
+- 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
 ### Testing User Stories from User Experience (UX) Section
