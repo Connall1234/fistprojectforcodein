@@ -10,40 +10,41 @@ The website is easily designed with a simple layout, so anyone can access it eas
 
 [![Screenshot-2023-11-04-030743.png](https://i.postimg.cc/yYxQhhBh/Screenshot-2023-11-04-030743.png)](https://postimg.cc/mtxyBHPh)
 
-
 ## Features
+
+### Home page
+
+[![Home page screenshot](https://i.postimg.cc/WpCfs9QD/Screenshot-2023-11-04-102818.png)](https://postimg.cc/z3wkjkD5)
+
+- The home page has a simple black and white theme, to keep the aim of the page simple
+- We have a nav bar at the top, with three pieces of content, two paragraphs discussing what the page is about, and one piece of media to split them up
+- At the bottom we have our footer which provies all our links to social media 
+
+### Our quotes paee
+
+[![Quotes page screenshot](https://i.postimg.cc/TYZ8H2R4/Screenshot-2023-11-04-103155.png)](https://postimg.cc/xcyFX2Nv)
+
+- The quotes page has six different cards/quotes, the quote add name of the person is revealed when the user hovers over the card on larger screens, and when clicked on smaller ones (like tablets & phones)
+- Thes page was made responsive and interactive for users, as the cards change their placement when the screen is reducded, as you can see in the first image on this readme, the cards are in a line of six whereas in the image above they are in a line of six 
+
+### Your quotes page
+
+[![Your quotes page screenshot](https://i.postimg.cc/wTz4ttjH/Screenshot-2023-11-04-103520.png)](https://postimg.cc/kDjvzgSh)
+
+-This page is for users to submit their own quotes to be reviewed
+-The page has a working form submisison 
+-The intention was to make this page very straightforward and keep with the theme of the other pages
 
 - Responsive on all device sizes
 
 - Interactive elements
 
-## Technologies Used
 
 ### Languages Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Libraries & Programs Used
-
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
 ## Testing
 
