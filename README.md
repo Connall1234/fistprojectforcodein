@@ -1,6 +1,6 @@
 <h1 align="center">Coders Quotes Website</h1>
 
-[View the live project here.](https://connall1234.github.io/fistprojectforcodein/
+[View the live project here.](https://connall1234.github.io/fistprojectforcodein/)
 
 
 Here's my website, Coders Quotes! 
