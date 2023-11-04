@@ -16,28 +16,28 @@ The website is easily designed with a simple layout, so anyone can access it eas
 
 [![Home page screenshot](https://i.postimg.cc/WpCfs9QD/Screenshot-2023-11-04-102818.png)](https://postimg.cc/z3wkjkD5)
 
-- The home page has a simple black and white theme, to keep the aim of the page simple
-- We have a nav bar at the top, with three pieces of content, two paragraphs discussing what the page is about, and one piece of media to split them up
-- At the bottom we have our footer which provies all our links to social media 
+- The home page has a simple black and white theme, to keep the aim of the page simple.
+- We have a nav bar at the top, with three pieces of content, two paragraphs discussing what the page is about, and one piece of media to split them up.
+- At the bottom we have our footer which provies all our links to social media.
 
 ### Our quotes page
 
 [![Quotes page screenshot](https://i.postimg.cc/TYZ8H2R4/Screenshot-2023-11-04-103155.png)](https://postimg.cc/xcyFX2Nv)
 
-- The quotes page has six different cards/quotes, the quote add name of the person is revealed when the user hovers over the card on larger screens, and when clicked on smaller ones (like tablets & phones)
-- Thes page was made responsive and interactive for users, as the cards change their placement when the screen is reducded, as you can see in the first image on this readme, the cards are in a line of six whereas in the image above they are in a line of six 
+- The quotes page has six different cards/quotes, the quote add name of the person is revealed when the user hovers over the card on larger screens, and when clicked on smaller ones (like tablets & phones).
+- Thes page was made responsive and interactive for users, as the cards change their placement when the screen is reducded, as you can see in the first image on this readme, the cards are in a line of six whereas in the image above they are in a line of six.
 
 ### Your quotes page
 
 [![Your quotes page screenshot](https://i.postimg.cc/wTz4ttjH/Screenshot-2023-11-04-103520.png)](https://postimg.cc/kDjvzgSh)
 
--This page is for users to submit their own quotes to be reviewed
--The page has a working form submisison 
--The intention was to make this page very straightforward and keep with the theme of the other pages
+- This page is for users to submit their own quotes to be reviewed.
+- The page has a working form submisison.
+- The intention was to make this page very straightforward and keep with the theme of the other pages.
 
 ### Interactive elements
 
-- The interactive elements of the page are shown above, with the cards/quotes users can see and the form page
+- The interactive elements of the page are shown above, with the cards/quotes users can see and the form page.
 
 ### Languages Used
 
@@ -49,71 +49,59 @@ The website is easily designed with a simple layout, so anyone can access it eas
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 ### [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--Below are all the screenshots for this testing part of the file
+
+- Below are all the screenshots for this testing part of the file.
+  
 [![CSS](https://i.postimg.cc/SN0RchBm/Screenshot-2023-11-04-104217.png)](https://postimg.cc/Yj3twJ2P)
 [![Index](https://i.postimg.cc/jj8Qj5kx/Screenshot-2023-11-04-104352.png)](https://postimg.cc/947q8WhK)
 [![Our quotes](https://i.postimg.cc/jj8Qj5kx/Screenshot-2023-11-04-104352.png)](https://postimg.cc/947q8WhK)
 [![Your quotes](https://i.postimg.cc/tJcMnkSg/Your-quotes-screenshot.png)](https://postimg.cc/wRhVSXdK)
 
 
-- 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
-### Testing User Stories from User Experience (UX) Section
+### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
-- #### First Time Visitor Goals
+- Below are all the screenshots for this testing part of the file.
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+[![Home](https://i.postimg.cc/445g8RM6/Home-screenshot.png)](https://postimg.cc/23VM6MCy)
+[![Our quotes screenshot.png](https://i.postimg.cc/5t3hswKx/Our-quotes-screenshot.png)](https://postimg.cc/v142B6dj)
+[![Your quotes-screenshot.png](https://i.postimg.cc/63BvXNhr/Your-quotes-screenshot.png)](https://postimg.cc/xkFCvhh8)
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
 
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+### Bug fixes
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+- But that pushed the top of the content into the header.
+  - This was fixed b  adding margin.
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+- Bug that made the video element stick out in areas when screen width was reduced.
+  - This was fixed by making th  video responsive to the div that it was in.
 
-- #### Returning Visitor Goals
+- Bug that made the page have side scrolling when not needed.
+  - This was fixed by hiding overflow x.
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+- Bug that the cards/quotes button would sentthe user to the top of the page when clicked.
+  - This was fixed by taking ahref out of the button HTML.
 
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
+- Bug where the text on the index page would not be responsive and change design at a certain breakpoint.
+  - This was fixed by changing the margin on the text element.
 
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+- Bug where the form page got squished when on smaller screens
+  - This was fixed by changing the width and adding media queries when the screen size got to a certain point.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
 
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+### Additional features for UX 
 
-- #### Frequent User Goals
+- Nav bar feature has the current page you're on appear bigger in the nav bar.
+  - [![Screenshot-2023-11-04-111820.png](https://i.postimg.cc/59pQv0BL/Screenshot-2023-11-04-111820.png)](https://postimg.cc/fktbQMgR)
+- Bounce added to the web pages to give some more design to the user (unable to screenshot this)
+- Cards that show a quote when selected (this feature has been screenshot in earlier sections)
+- Form page, has some shadowing when hovering over the submit bar (unable to screenshot this)
+- The index page will be responsive when the user views it on different screens, below you will see the page on large screens, then on smaller ones.
+  -  [![index-responsiveness-on-large-screen.png](https://i.postimg.cc/PxCfwXTz/index-responsiveness-on-large-screen.png)](https://postimg.cc/k6ddrdVB)
+  - [![index-responsiveness-on-smaller-screen.png](https://i.postimg.cc/Z5s1yrR2/index-responsiveness-on-smaller-screen.png)](https://postimg.cc/qNnmP62x)
 
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
 
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
 
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
 ### Further Testing
 
@@ -122,37 +110,29 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - A large amount of testing was done to ensure that all pages were linking correctly.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Known Bugs
-
-- On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-  - A white gap can be seen to the right of the footer and navigation bar as a result.
-- On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
-
 ## Deployment
 
 ### GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Connall1234/fistprojectforcodein/tree/this-is-correct-branch#coders-quotes-website)
+2. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+3. Under "Source", click the dropdown called "None" and select "Master Branch".
+4. The page will automatically refresh.
+5. Scroll back down through the page to locate the now published site [link](https://connall1234.github.io/fistprojectforcodein/index.html) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Connall1234/fistprojectforcodein/tree/this-is-correct-branch#coders-quotes-website)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Connall1234/fistprojectforcodein/tree/this-is-correct-branch#coders-quotes-website)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -160,13 +140,13 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+git clone https://github.com/Connall1234/fistprojectforcodein/tree/this-is-correct-branch#coders-quotes-website
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/Connall1234/fistprojectforcodein/tree/this-is-correct-branch#coders-quotes-website
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
@@ -174,27 +154,35 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Unpacking objects: 100% (10/10), done.
 ```
 
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
 
+- I would like to give credit for Code Institute for the material provided to learn HTML & CSS, I would also like to offer my thanks to my mentor who helped me greatly with this project.
+
 ### Code
 
-- The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
-- [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
-- [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+- The header & footer code came from the Love Running project that was explained by Code Institute [Link to the project here](https://github.com/Connall1234/loverunningproject)
 
 ### Content
 
-- All content was written by the developer.
-
-- Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+- Contnet was in part written by the developer, in part written by [Chat GPT](https://chat.openai.com/auth/login?next=/chat)
+- The quotes came from the artists that were mentioned above, here's a link to each of their sources
+  - [Eminem](https://www.123helpme.com/essay/EMINEM-How-Much-Damage-Can-You-Do-38154)
+  - [Jordan Petterson](https://leaders.com/articles/personal-growth/jordan-peterson-quotes/)
+  - [Zach Bryan](https://genius.com/Zach-bryan-traveling-man-lyrics)
+  - [Royce Da 5"9](https://www.jiosaavn.com/lyrics/ive-been-up-ive-been-down-lyrics/HRE7Sz57AgM)
+  - [Joe Budden](https://genius.com/Joe-budden-stuck-in-the-moment-lyrics)
+  - [Eric Thomas](https://www.goodreads.com/author/quotes/247473.Eric_Thomas#:~:text=No%20one%20fails%20alone%2C%20and%20no%20one%20succeeds%20alone.&text=Don't%20make%20a%20habit,what's%20actually%20good%20for%20you.&text=I%20learned%20that%20a%20real,help%20them%20improve%20their%20lives.)
 
 ### Media
 
-- All Images were created by the developer.
+- All Images were found online, pleaee note I do not own the rights to these images this is only for a college project.
+  - [Eminem](https://variety.com/wp-content/uploads/2018/08/eminem.jpg)
+  - [Jordan Petterson](https://i.pinimg.com/originals/6b/ec/19/6bec1946367bc86406ca96658ced511b.jpg)
+  - [Zach Bryan](https://abc6onyourside.com/resources/media/7530a51f-06cb-4fef-b4a2-50722f047e89-ZachBryan.jpg)
+  - [Royce Da 5"9](https://2dopeboyz.com/wp-content/uploads/2015/09/royce-prhyme-face.jpg)
+  - [Joe Budden](https://www.billboard.com/wp-content/uploads/media/joe-budden-revolt-2018-billboard-1548.jpg?w=942&h=623&crop=1)
+  - [Eric Thomas](https://i1.sndcdn.com/artworks-000041734121-nzzlbi-t500x500.jpg)
 
 ### Acknowledgements
 
