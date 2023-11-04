@@ -106,6 +106,10 @@ main {
     padding: 52px;
 }
 
+#heading-for-video {
+    color: black
+}
+
 /* Footer */
 footer {}
 
