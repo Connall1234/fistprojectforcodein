@@ -70,11 +70,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Bug fixes
 
-- But that pushed the top of the content into the header.
-  - This was fixed b  adding margin.
+- Bug that pushed the top of the content into the header.
+  - This was fixed by adding margin.
 
 - Bug that made the video element stick out in areas when screen width was reduced.
-  - This was fixed by making th  video responsive to the div that it was in.
+  - This was fixed by making the video responsive to the div that it was in.
 
 - Bug that made the page have side scrolling when not needed.
   - This was fixed by hiding overflow x.
@@ -99,8 +99,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - The index page will be responsive when the user views it on different screens, below you will see the page on large screens, then on smaller ones.
   -  [![index-responsiveness-on-large-screen.png](https://i.postimg.cc/PxCfwXTz/index-responsiveness-on-large-screen.png)](https://postimg.cc/k6ddrdVB)
   - [![index-responsiveness-on-smaller-screen.png](https://i.postimg.cc/Z5s1yrR2/index-responsiveness-on-smaller-screen.png)](https://postimg.cc/qNnmP62x)
-
-
 
 
 ### Further Testing
