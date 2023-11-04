@@ -24,7 +24,6 @@ body {
 
 /* Header */
 header {
-
     background-color: black;
     padding: 0 1rem;
     position: fixed;
@@ -33,7 +32,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
 }
 
 header a {
@@ -52,7 +50,6 @@ h1 {
 
 /* Styles for our menu, 'active' is for the current page we're on in reference to the browser */
 #menu {
-    size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
@@ -89,7 +86,6 @@ nav {
 }
 
 .nav-toggle-label {
-
     font-size: 2rem;
 }
 
@@ -103,7 +99,6 @@ nav {
 
 /* Main content */
 main {
-
     background-color: transparent;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
@@ -112,7 +107,6 @@ main {
 }
 
 /* Footer */
-
 footer {}
 
 #social-networks {
@@ -129,22 +123,13 @@ footer {}
     color: white;
 }
 
-
 /*The below is for the video element on index page */
-
-
-
 .video-element {
     padding: 10px 10px 10px 10px;
-
 }
 
-
-
 /* Below is for the our quotes page */
-
 /* This will be for the quote cards */
-
 .container-our-quotes {
     display: flex;
     justify-content: center;
@@ -170,7 +155,6 @@ footer {}
 .car-1 {
     background-image: url("https://variety.com/wp-content/uploads/2018/08/eminem.jpg");
     background-position: center center;
-
 }
 
 .car-2 {
@@ -182,7 +166,6 @@ footer {}
     background-image: url("https://abc6onyourside.com/resources/media/7530a51f-06cb-4fef-b4a2-50722f047e89-ZachBryan.jpg");
     background-position: center center;
 }
-
 
 .car-4 {
     background-image: url("https://2dopeboyz.com/wp-content/uploads/2015/09/royce-prhyme-face.jpg");
@@ -236,7 +219,7 @@ footer {}
     border-radius: 15px;
 }
 
-/* Above is for the more quotes button */
+/* Above is for the click me button */
 
 /*Below is for the cards to have a hover affect */
 .card:hover {
@@ -260,7 +243,6 @@ footer {}
     justify-content: center;
     align-items: center;
     min-height: 50vh;
-
     width: 100%;
     margin-top: -170px;
     overflow-x: hidden;
@@ -272,7 +254,6 @@ footer {}
     display: flex;
     flex-direction: column;
     padding: 90px 15px 0 15px;
-
     margin-top: -120px
 }
 
@@ -367,7 +348,6 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .section-three {
@@ -375,25 +355,10 @@ h6 {
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 10px 20px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Media query: phones and some talets, (767px and up)*/
 @media screen and (max-width: 767px) {
-
-
 
     /* Main content */
     main {
@@ -403,13 +368,9 @@ h6 {
         /*Had troible with form not centering so we added flex*/
         justify-content: center;
         align-items: center;
-
-
     }
 
-
     h6 {
-
         font-size: 18px
     }
 
@@ -420,7 +381,6 @@ h6 {
     .submit {
         width: 100%
     }
-
 
 }
 
@@ -438,7 +398,6 @@ h6 {
 
     #menu {
         display: flex;
-
     }
 
     #menu>li {
@@ -463,17 +422,12 @@ h6 {
         /*Had troible with form not centering so we added flex*/
         justify-content: center;
         align-items: center;
-
-
     }
-
-
 
     /*The below is for the index text to appear different on tablets */
     .section-one {
         max-width: 50%
     }
-
 
     .section-three {
         margin-left: auto;
@@ -481,16 +435,7 @@ h6 {
     }
 
     /*The above is for the index text to appear different on tablets */
-
-
 }
-
-
-
-
-
-
-
 
 /* This is to make the quotes look centered on large screens */
 @media screen and (min-width: 1920px) {
