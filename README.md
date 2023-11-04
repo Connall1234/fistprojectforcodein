@@ -79,7 +79,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - Bug that made the page have side scrolling when not needed.
   - This was fixed by hiding overflow x.
 
-- Bug that the cards/quotes button would sentthe user to the top of the page when clicked.
+- Bug that the cards/quotes button would send the user to the top of the page when clicked.
   - This was fixed by taking ahref out of the button HTML.
 
 - Bug where the text on the index page would not be responsive and change design at a certain breakpoint.
@@ -160,11 +160,13 @@ $ git clone https://github.com/Connall1234/fistprojectforcodein/tree/this-is-cor
 ### Code
 
 - The header & footer code came from the Love Running project that was explained by Code Institute [Link to the project here](https://github.com/Connall1234/loverunningproject)
+- The code was written by the developer.
+- The cards/quotes section took inspiration from this [Video](https://www.youtube.com/watch?v=qXRYMdvq_Dc)
 
 ### Content
 
-- Contnet was in part written by the developer, in part written by [Chat GPT](https://chat.openai.com/auth/login?next=/chat)
-- The quotes came from the artists that were mentioned above, here's a link to each of their sources
+- Content was in part written by the developer, in part written by [Chat GPT](https://chat.openai.com/auth/login?next=/chat)
+- The quotes came from the artists that were mentioned above, here's a link to each of their sources.
   - [Eminem](https://www.123helpme.com/essay/EMINEM-How-Much-Damage-Can-You-Do-38154)
   - [Jordan Petterson](https://leaders.com/articles/personal-growth/jordan-peterson-quotes/)
   - [Zach Bryan](https://genius.com/Zach-bryan-traveling-man-lyrics)
@@ -174,7 +176,7 @@ $ git clone https://github.com/Connall1234/fistprojectforcodein/tree/this-is-cor
 
 ### Media
 
-- All Images were found online, pleaee note I do not own the rights to these images this is only for a college project.
+- All Images were found online, please note I do not own the rights to these images this is only for a college project.
   - [Eminem](https://variety.com/wp-content/uploads/2018/08/eminem.jpg)
   - [Jordan Petterson](https://i.pinimg.com/originals/6b/ec/19/6bec1946367bc86406ca96658ced511b.jpg)
   - [Zach Bryan](https://abc6onyourside.com/resources/media/7530a51f-06cb-4fef-b4a2-50722f047e89-ZachBryan.jpg)
