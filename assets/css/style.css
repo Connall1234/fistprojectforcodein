@@ -93,6 +93,14 @@ nav {
     font-size: 2rem;
 }
 
+.nav-link {
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    transform: scale(1.1) translateY(-10px);
+}
+
 /* Main content */
 main {
 
@@ -128,7 +136,7 @@ footer {}
 
 .video-element {
     padding: 10px 10px 10px 10px;
-    border: solid 15px yellow;
+
 }
 
 
@@ -162,7 +170,7 @@ footer {}
 .car-1 {
     background-image: url("https://variety.com/wp-content/uploads/2018/08/eminem.jpg");
     background-position: center center;
-    border: solid 5px yellow
+
 }
 
 .car-2 {
@@ -171,21 +179,25 @@ footer {}
 }
 
 .car-3 {
-    background-image: url("https://connall1234-fistprojectf-9uelj3sndv.us2.codeanyapp.com/files/download/?id=92b297d0-b490-4ab6-b782-d7db0437f43b");
+    background-image: url("https://abc6onyourside.com/resources/media/7530a51f-06cb-4fef-b4a2-50722f047e89-ZachBryan.jpg");
+    background-position: center center;
 }
 
-/*Trying to fix the issue for the images not showing here*/
+
 .car-4 {
-    background-image: url("https: //connall1234-fistprojectf-9uelj3sndv.us2.codeanyapp.com/files/download/?id=92b297d0-b490-4ab6-b782-d7db0437f43b");
+    background-image: url("https://2dopeboyz.com/wp-content/uploads/2015/09/royce-prhyme-face.jpg");
+    background-position: center center;
 }
 
 .car-5 {
-    background-image: url("/assets/images/joebudden-img.webp");
+    background-image: url("https://www.billboard.com/wp-content/uploads/media/joe-budden-revolt-2018-billboard-1548.jpg?w=942&h=623&crop=1");
+    background-position: center center;
 }
 
 
 .car-6 {
-    background-image: url("/assets/images/erict-img.jpg");
+    background-image: url("https://i1.sndcdn.com/artworks-000041734121-nzzlbi-t500x500.jpg");
+    background-position: center center;
 }
 
 /*Above is for the card images */
@@ -370,129 +382,119 @@ h6 {
 
 
 
-/* Media query: phones, only smaller screens to fix the text on index page (375px and up) */
-@media screen and (max-width: 376px) {
 
-    .home-wrapper p {
-        font-size: 12px;
+
+
+
+
+
+
+
+/* Media query: phones and some talets, (767px and up)*/
+@media screen and (max-width: 767px) {
+
+
+
+    /* Main content */
+    main {
+        /* Push main content down to accomodate large header */
+        margin-top: 113px;
+        display: flex;
+        /*Had troible with form not centering so we added flex*/
+        justify-content: center;
+        align-items: center;
 
 
     }
 
-    .home-wrapper {
-        margin-top: -90px
+
+    h6 {
+
+        font-size: 18px
+    }
+
+    .input {
+        width: 100%
+    }
+
+    .submit {
+        width: 100%
+    }
+
+
+}
+
+/* Media query: tablets and larger, (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+
+    }
+
+    #menu>li {
+        padding: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 180%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accomodate large header */
+        margin-top: 113px;
+        display: flex;
+        /*Had troible with form not centering so we added flex*/
+        justify-content: center;
+        align-items: center;
+
+
     }
 
 
 
-    /* Media query: phones, only smaller screens to fix the text on index page (375px and up) */
-    @media screen and (min-width: 376px) {
+    /*The below is for the index text to appear different on tablets */
+    .section-one {
+        max-width: 50%
+    }
 
 
+    .section-three {
+        margin-left: auto;
+        max-width: 50%
+    }
+
+    /*The above is for the index text to appear different on tablets */
 
 
-        /* Media query: phones and some talets, (767px and up)*/
-        @media screen and (max-width: 767px) {
-
-
-
-            /* Main content */
-            main {
-                /* Push main content down to accomodate large header */
-                margin-top: 113px;
-                display: flex;
-                /*Had troible with form not centering so we added flex*/
-                justify-content: center;
-                align-items: center;
-
-
-            }
-
-
-            h6 {
-
-                font-size: 18px
-            }
-
-            .input {
-                width: 100%
-            }
-
-            .submit {
-                width: 100%
-            }
-
-
-        }
-
-        /* Media query: tablets and larger, (768px and up) */
-        @media screen and (min-width: 768px) {
-
-            /* Header */
-            nav {
-                display: block;
-                position: relative;
-                box-shadow: none;
-                width: fit-content;
-                padding-right: 1rem;
-            }
-
-            #menu {
-                display: flex;
-
-            }
-
-            #menu>li {
-                padding: 1rem;
-            }
-
-            .nav-toggle-label {
-                display: none;
-            }
-
-            #logo {
-                font-size: 180%;
-                line-height: 75px;
-                margin: 0 0.5rem;
-            }
-
-            /* Main content */
-            main {
-                /* Push main content down to accomodate large header */
-                margin-top: 113px;
-                display: flex;
-                /*Had troible with form not centering so we added flex*/
-                justify-content: center;
-                align-items: center;
-
-
-            }
-
-
-
-            /*The below is for the index text to appear different on tablets */
-            .section-one {
-                max-width: 50%
-            }
-
-
-            .section-three {
-                margin-left: auto;
-                max-width: 50%
-            }
-
-            /*The above is for the index text to appear different on tablets */
-
-
-        }
+}
 
 
 
 
 
-        /* This is to make the quotes look centered on large screens */
-        @media screen and (min-width: 1920px) {
-            .container-our-quotes {
-                margin-top: 140px
-            }
-        }
+
+
+
+/* This is to make the quotes look centered on large screens */
+@media screen and (min-width: 1920px) {
+    .container-our-quotes {
+        margin-top: 140px
+    }
+}
