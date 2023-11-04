@@ -126,6 +126,7 @@ footer {}
 /*The below is for the video element on index page */
 .video-element {
     padding: 10px 10px 10px 10px;
+    border: none
 }
 
 /* Below is for the our quotes page */
