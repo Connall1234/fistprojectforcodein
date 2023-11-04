@@ -8,7 +8,7 @@ This website is built with the purpose of showing which quotes I find the most i
 
 The website is easily designed with a simple layout, so anyone can access it easily. The website consists of a home/about page, a page dedicated to the quotes mentioned above, and lastly a form page where anyone can post and send their own favourite quotes in. 
 
-![alt text](https://ibb.co/GR8QztB)
+![Coders Quotes](https://ibb.co/GR8QztB)
 
 
 ## Features
